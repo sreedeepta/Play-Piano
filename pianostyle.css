@@ -1,0 +1,58 @@
+body{
+  background-image: linear-gradient(#293462,#7375fa);
+  margin:0px;
+}
+h1{
+  color:white;
+  font-family: 'Alegreya', serif;
+  font-size: 3rem;
+}
+
+h2{
+  color:white;
+  font-family: 'Alegreya', serif;
+}
+
+img{
+  width: 200px;
+}
+
+.key{
+  height: 300px;
+  width: 100px;
+  margin: 3px 3px;
+  border: 4px solid #45454d;
+  text-shadow: 2px 0 #c6cbef;
+  font-size: 3.5rem;
+  color: red;
+  font-family: 'Alegreya', serif;
+  outline: none;
+opacity: 0.8;
+  background-image:linear-gradient(#e2e3de,#b0b0b0);
+ 
+}
+
+/* Style of pressed key */
+.pressed {
+  box-shadow: 0 3px 4px 0 #293462;
+  opacity: 0.3;
+ background-image:linear-gradient(#bcbfb4,#8b8f81);
+  
+}
+
+#container{
+  padding-top: 50px;
+  text-align: center;
+}
+#footer{
+  background-color: #8a8ce3;
+  text-align: center;
+  margin:0px;
+  padding: 40px 0px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  color: #26ff00;
+}
+.keyset{
+  padding:100px;
+}
